@@ -1,0 +1,150 @@
+/***************** Tag Selectors *******************/
+
+a {
+    color: #11999E;
+}
+
+a:hover {
+    color: navy;
+}
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    line-height: 2;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin-top: 0%;
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E; 
+    font-size: 1.35rem;
+}
+
+hr {
+    border: none;
+    border-top: dotted lightgrey 6px;
+    margin: 100px auto;
+    width: 5%;
+}
+
+
+
+
+/******************* Class Selectors *******************/
+
+.bottom-container {
+    background-color: lightyellow;
+    padding: 100px 0px 50px 0px;
+}
+
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 100;
+    padding: 20px;
+    background-color: lightgrey;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    border: solid lightgrey 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+ }
+ 
+ .btn:hover {
+    background: lightyellow;
+    border: solid lightgrey 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: lightgrey;
+    text-decoration: none;
+ }
+.contact-me {
+    margin: 100px auto;
+    width: 50%;
+}
+
+.copyright {
+    font-size: .75rem;
+    padding-top: 20px;
+}
+.footer-link {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.html-img {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.volleyball-img {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-container {
+    background-color: lightyellow;
+    height: auto;
+    padding-top: 100px;
+    position: relative;
+}
+
+.profile {
+    margin: 100px auto 0px auto;
+    width: 50%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    bottom: 300px;
+    left: 300px;
+    position: absolute;
+}
+
+
+
+
+
+
+
+/********************* Id Selectors *******************/
